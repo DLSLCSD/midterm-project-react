@@ -1,0 +1,40 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: black;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  td {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f14a;
+  }
+  .table-container{
+    background-color:transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    padding: 50px;
+  }
+.table-container .add-item-form{
+  align-items: center;
+}
+  .table-container h2{
+    text-align: center;
+    color: white;
+  }
+
+  .items-table{
+    color: black;
+  }
